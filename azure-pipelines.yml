@@ -1,0 +1,26 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  imageName: 'wso2ei-integrator:6.5.0'
+
+steps:
+- script: echo Try to start!
+  displayName: 'Run a one-line script'
+- task: Docker@2
+  displayName: Build an wso2 image
+  inputs:
+    repository: $(imageName)
+    command: build
+    Dockerfile: docker-ei/dockerfiles/ubuntu/integrator/Dockerfile
+
+
+
