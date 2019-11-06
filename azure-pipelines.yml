@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  imageName: 'my-wso2ei-integrator-650-test'
+  imageName: 'my-wso2ei-integrator-6.5.0'
 
 steps:
 - script: echo Try to start!
