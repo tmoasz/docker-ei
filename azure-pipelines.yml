@@ -23,5 +23,5 @@ steps:
     Dockerfile: dockerfiles/ubuntu/integrator/Dockerfile
     containerRegistry: wso2ei.azurecr.io
     tags: |
-          $(tag)
+          v1
 
