@@ -19,8 +19,9 @@ steps:
   displayName: Build an wso2 image
   inputs:
     repository: $(imageName)
-    command: build
+    command: buildAndPush
     Dockerfile: dockerfiles/ubuntu/integrator/Dockerfile
     containerRegistry: wso2ei.azurecr.io
-
+    tags: |
+          $(tag)
 
