@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/kobylinskitomasz/wso2ei/_apis/build/status/tmoasz.docker-ei?branchName=azure-pipelines)](https://dev.azure.com/kobylinskitomasz/wso2ei/_build/latest?definitionId=1&branchName=azure-pipelines)
+
 # Docker and Docker Compose Resources for WSO2 Integration
 
 This repository contains following Docker resources:
