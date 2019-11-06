@@ -23,4 +23,3 @@ steps:
     Dockerfile: dockerfiles/ubuntu/integrator/Dockerfile
 
 
-
