@@ -21,5 +21,6 @@ steps:
     repository: $(imageName)
     command: build
     Dockerfile: dockerfiles/ubuntu/integrator/Dockerfile
+    containerRegistry: wso2ei.azurecr.io/$(imageName)
 
 
