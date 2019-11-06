@@ -20,7 +20,7 @@ steps:
   inputs:
     repository: $(imageName)
     command: build
-    Dockerfile: docker-ei/dockerfiles/ubuntu/integrator/Dockerfile
+    Dockerfile: dockerfiles/ubuntu/integrator/Dockerfile
 
 
 
